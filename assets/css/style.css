@@ -203,7 +203,7 @@ main .personal .box-img .item-img{
 main .personal .box-img .image img{
     position: absolute;
     height: 520px;
-    top: -5px;
+    top: -15px;
     right: -80px;
 }
 
@@ -594,13 +594,15 @@ main .contactez-moi h1{
     font-size: 1.7em;
     width: 55%;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: bold;
+    color: #EA3D3D;
 }
 
 main .contactez-moi h2{
     font-size: 1.5em;
     text-transform: capitalize;
-    font-weight: normal;
+    font-weight: bold;
+    /* color: #EA3D3D; */
 }
 
 
