@@ -191,7 +191,7 @@ main .personal .box-img{
 
 main .personal .box-img .item-img{
     position: relative;
-    margin-top: -12px;
+    margin-top: -20px;
     margin-right: -60px;
     padding: 50px 60px;
     height: 415px;
@@ -202,9 +202,9 @@ main .personal .box-img .item-img{
 
 main .personal .box-img .image img{
     position: absolute;
-    height: 520px;
-    top: -15px;
-    right: -80px;
+    height: 505px;
+    top: -10px;
+    right: -70px;
 }
 
 /* -=================================== * section competences * ==========================================- */
@@ -580,7 +580,12 @@ main .contactez-moi{
     height: 100vh;
     display: flex;
     padding: 50px; 
+    background: url("../img/Vector\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* background-position: 100%; */
 }
+
 
 main .contactez-moi .message{
     flex-grow: 1;
@@ -595,14 +600,12 @@ main .contactez-moi h1{
     width: 55%;
     text-transform: uppercase;
     font-weight: bold;
-    color: #EA3D3D;
 }
 
 main .contactez-moi h2{
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight: bold;
-    /* color: #EA3D3D; */
 }
 
 
@@ -615,7 +618,9 @@ main .contactez-moi .formulaire legend{
 }
 main .contactez-moi .formulaire{
     flex-grow: 1;
-    /* box-shadow: 0 0 12px rgb(26, 26, 26); */
+    opacity: .8;
+    box-shadow: 0 0 10px rgb(26, 26, 26);
+    background: #fff;
 }
 
 main .contactez-moi form{
