@@ -1,0 +1,771 @@
+
+/* codebg 30303b 
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+*/
+
+@font-face{
+    src: url(../fonts/Elianto-typeface/Elianto-Regular.ttf);
+    font-family: Elianto;
+}
+@font-face{
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header{
+    width: 100wh;
+    height: 100vh;
+    letter-spacing: 2.5px;
+    background: #0b1320;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .head-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+header .head-nav h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: normal;
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: Elianto;
+}
+
+header .head-nav h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .head-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header .head-nav ul li{
+    margin: 0 25px;
+}
+
+header .head-nav ul li a{
+    font-size: .9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: Poppins;
+
+}
+
+header .nav-second{
+    display: inline-block;
+    margin: 5% 60px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-family: Poppins;
+}
+
+header .nav-second p:nth-child(1){
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header .nav-second p:nth-last-child(2){
+    margin-top: -15px;
+    font-size: 1.1em;
+}
+
+header .nav-second .souligne{
+    width: 65px;
+    height: 4px;
+    background-color: #EA3D3D;
+    margin-top: -10px;
+}
+
+/* --====================================* section a propos *========================================-- */
+
+
+main .personal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0 0;
+    font-family: Poppins;
+
+}
+
+main .personal .description{
+    padding: 50px 70px;
+}
+
+main .personal .description{
+    line-height: 20px;
+}
+main .personal .description #propos{
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-size: 1.8em;
+    }
+
+main .personal .description .full{
+        padding: 10px 0 5px;
+        line-height: 30px;  
+        letter-spacing: .5px; 
+
+    }
+
+main .personal .description .full span:nth-child(1){
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #EA3D3D;
+}
+main .personal .description .full span:nth-child(2){
+    text-transform: uppercase;
+    font-size: .9em;    
+}
+
+    /* -======================================* paragraphe a prppos de moi *====================================- */
+
+main .personal p{
+    letter-spacing: .7px;
+    line-height: 25px;
+    width: 38vw;
+    font-weight: 300;
+}
+
+    /* -========================================* icone contact perso *=======================================- */
+main .personal .infoPerso{
+    margin: 15px 0 0 0;
+}
+main .personal .infoPerso a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main .personal .infoPerso i{
+    padding: 5px;
+    color: #EA3D3D;
+}
+
+    /* -======================================* icones *====================================-*/
+
+main .personal .icon{
+    padding: 40px 0 0 0;
+}
+
+main .personal .icon span{
+    padding: 5px 2px;
+}
+
+main .personal .icon span a{
+    text-decoration: none;
+}
+
+main .personal .icon span a i{
+    font-size: 1.3em;
+    color: #0A0A0B;
+    border: 1px solid #0A0A0B;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* -====================================== * image *=====================================-*/
+
+main .personal .box-img{
+    position: relative;
+    margin: 75px 170px 0 0px;
+}
+
+main .personal .box-img .item-img{
+    position: relative;
+    margin-top: -12px;
+    margin-right: -60px;
+    padding: 50px 60px;
+    height: 415px;
+    width: 320px;
+    background: linear-gradient( #EA3D3D, #ffe98a);
+    opacity: 70%;
+}
+
+main .personal .box-img .image img{
+    position: absolute;
+    height: 520px;
+    top: -5px;
+    right: -80px;
+}
+
+/* -=================================== * section competences * ==========================================- */
+main .contenair-competence{
+    padding: 50px;
+    background: #30303b;
+    letter-spacing: 2.5px;
+}
+
+main .contenair-competence #competences{ 
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+
+/* -====================================================* skills * ===========================================- */
+main .contenair-competence > .second_2{
+	margin: 20px auto;
+	width: 47%;
+	color: #fff;
+	box-sizing: border-box;
+	font-size: .8em;
+}
+
+main .contenair-competence .second_2 h3{
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+main .contenair-competence .second_2 .right{
+	float: right;
+	position: relative;
+	left: 1%;
+    top: -2%;	
+    font-weight: lighter;
+}
+
+main .contenair-competence .progress-bar .progress-color{
+	height: 10px;
+}
+
+/* -===========================================* progress bar * ================================================- */
+main .contenair-competence .progress-bar {
+    background-color: #ccc;
+	width: 100%;
+}
+
+/*-========================================* couleur de la barre de progression *====================================-*/
+main .contenair-competence .progress-bar .progress-color{
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+    animation: fillbar 30s forwards;
+    transform: scaleX(0);
+    transform-origin: 0;
+}
+
+/*-===========================================* pourcentage de skills *================================================-*/
+
+.level-skill-html { width: 50%;}
+.level-skill-css { width: 30%; }
+.level-skill-js { width: 20%; }
+.level-skill-php { width: 5%; }
+.level-skill-git { width: 35%; }
+.level-skill-wordpress { width: 25%;}
+
+
+@keyframes fillbar{
+	to {
+		transform: scaleX(1.5);	
+	}
+}
+
+/* -========================================== * section parcours *=====================================================-*/
+
+main .main-parcours{
+    padding: 50px;
+    letter-spacing: 2.5px;
+    position: relative;
+}
+
+main .main-parcours #parcours{ 
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* -==================================== * description parcours *================================================- */
+     
+main .main-parcours:before{
+	content: '';
+	width: 2px;
+	height: 90%;
+	background: rgba(255, 35, 0, 0.4);
+	position: absolute;
+	margin-left: -1px;
+	top: 10em;
+	left: 50%;
+}
+
+
+main .main-parcours .head-timeline{
+	position: relative;
+	padding: 30px;
+	overflow: auto;
+}
+
+/* -======================= =====* cerclede de timeline *======================================================-*/
+main .main-parcours .head-timeline .marks{
+	position: absolute;
+	margin-left: 10px;
+    left:  48.4%;
+    top: 40px;
+	height: 20px;
+	width: 20px;
+	background: #EA3D3D;
+    border-radius: 50px;
+}
+
+/* -============================================ *side droite *=================================================-*/
+main .main-parcours .head-timeline .time-right{
+	background: #EA3D3D;
+	color: #fff;
+	height: 35px;
+	width: 120px;
+	padding: 2px 10px;
+	position: relative;
+	margin-right: 25px; 
+	right: 30%;
+	float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+main .main-parcours .head-timeline .text h3{
+    color: #EA3D3D;
+    text-transform: uppercase;
+}
+
+
+main .main-parcours .head-timeline .text{
+	position: relative;
+	border-radius: 4px;
+	padding: 5px;
+	width: 350px;
+	margin-left: 50px;
+	float: left;
+}
+
+/* -============================================== * side right *======================================================* */
+main .main-parcours .head-timeline-left{
+	clear: both;
+	margin: 30px auto;
+	position: relative;
+	padding: 30px;
+	overflow: auto;
+}
+
+main .main-parcours .marks-left{
+	position: absolute;
+    margin-left: 10px;
+    top: 40px;
+	left:  48.5%;
+	height: 20px;
+	width: 20px;
+	background: #EA3D3D;
+	border-radius: 50px;
+}
+
+main .main-parcours .time-left{
+	background: #EA3D3D;
+	color: #fff;
+	height: 35px;
+	width: 120px;
+	padding: 2px 10px;
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	left: 31%;
+	float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+main .main-parcours .text-left h3{
+    color: #EA3D3D;
+    text-transform: uppercase;
+}
+
+main .main-parcours .text-left{
+	position: relative;
+	padding: 5px;
+	width: 350px;
+	margin-right: 20px;
+	float: right;
+}
+/* -============================================* section services *====================================================- */
+
+main .service{
+    margin: 50px 0;
+}
+
+main .service .first-block{
+    height: 50vh;
+    background-image: url(../css/ord4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .service .first-block h1{
+    padding-top: 8%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 2em;
+}
+
+main .service .first-block i{
+    font-size: 2.5em;
+    color: #EA3D3D;
+}
+
+main .service .second-block{
+    height: 50vh;
+}
+
+main .service .second-block .block-service{
+    display: flex;
+    justify-content: center;
+    margin: -100px 0;
+}
+
+main .service .second-block .block-service h3{
+    text-transform: capitalize;
+}
+
+main .service .second-block .fa-lightbulb-o{
+    padding: 50px 65px;
+}
+
+main .service .second-block i{
+    font-size: 4em;
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+    border-radius: 50%;
+    padding: 50px;
+    color: #fff;
+}
+
+
+main .service .second-block .service-1{
+    width: 240px;
+    padding: 20px 25px;
+    margin: 0 25px;
+}
+
+
+main .service .second-block .service-2{
+    width: 240px;
+    padding: 20px 25px; 
+    margin: 0 25px;
+}
+
+main .service .second-block .service-3{
+    width: 240px;
+    padding: 20px 25px;
+    margin: 0 25px;
+}
+
+/* -===================================* realisations *========================================================- */
+
+main .main-realisation{
+    padding: 50px;
+    background: url("../img/ord2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 2.5px;
+}
+
+main .main-realisation #realisation{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 2em;
+}
+
+/* -=======================================* Box-realisation*======================================================- */
+
+main .main-realisation .box-realisation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    background: #f5f6f8;
+    box-shadow: 0 0 3px rgb(165, 165, 165);
+    opacity: .95;
+}
+
+main .main-realisation .box-realisation .box{
+    padding: 15px;
+    transition: transform .3s;
+}
+
+/* -============================================* images de couverture *==========================================- */
+main .main-realisation .box-realisation .box img{
+	box-sizing: inherit;
+	height: 300px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 2.5px rgb(26, 26, 26);
+    object-fit: cover;
+}
+
+main .main-realisation .box-realisation .box:hover{
+    transform: scale(.97);
+}
+main .main-realisation .box-realisation .box img:hover{
+    box-shadow: 0 0 12px rgb(26, 26, 26);
+}
+
+
+/* -=============================================* hobbies *========================================================- */
+main .main-hobbies{
+    padding: 50px;
+    letter-spacing: 2.5px;
+    background: #0b1320;
+}
+
+
+
+main .main-hobbies .hobbies{
+    display: flex;
+    box-shadow: 0 0 15px #000;
+}
+
+main .main-hobbies .hobbies .section-hobbie{
+    flex-grow: 2;
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+    padding: 20px;
+}
+
+main .main-hobbies .hobbies i{
+    font-size: 2.5em;
+    padding: 12px;
+    font-weight: 100;
+}
+
+main .main-hobbies .hobbies span{
+    text-transform: capitalize;
+}
+
+/* -========================================* seconde section *======================================- */
+main .main-hobbies .main-second{
+    background: linear-gradient( #30303b33, #30303b), url(../img/ord5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .main-hobbies .main-second h1{
+    padding: 80px 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 3em;
+    color: #fff;
+}
+
+/* -============================================== * contactez-moi * ==============================================- */
+main .contactez-moi{
+    height: 100vh;
+    display: flex;
+    padding: 50px; 
+}
+
+main .contactez-moi .message{
+    flex-grow: 1;
+    padding: 40px;
+    /* background: url("../img/Vector\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+main .contactez-moi h1{
+    font-size: 1.7em;
+    width: 55%;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+main .contactez-moi h2{
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+
+/* --====================================================* formulaire *===============================================-- */
+main .contactez-moi .formulaire legend{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+main .contactez-moi .formulaire{
+    flex-grow: 1;
+    /* box-shadow: 0 0 12px rgb(26, 26, 26); */
+}
+
+main .contactez-moi form{
+    width: 480px;
+    margin: 50px auto;
+}
+
+main .contactez-moi .formulaire .div-input{
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 2px solid #999;
+    margin: 25px 0;
+}
+
+main .contactez-moi .div-input i{
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    font-size: 2em;
+    color: #999;
+}
+
+main .contactez-moi .div-input label{
+    position: relative;
+    top: 15px;
+    left: 27px;
+    color: rgba(153, 153, 153, 0.5);
+    font-weight: lighter;
+}
+
+ main .contactez-moi .div-input .mail{
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1.5em;
+} 
+
+ main .contactez-moi  .div-input .input{
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1.5em;
+} 
+
+main .contactez-moi .div-comment textarea{
+    position: relative;
+    top: 15px;
+    left: -15px;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+}
+
+main .contactez-moi .div-comment{
+    position: relative;
+    margin: -10px;
+    padding: 15px;
+    border-bottom: 2px solid #999;
+}
+
+main .contactez-moi .div-comment i{
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    font-size: 2em;
+    color: #999;
+}
+
+main .contactez-moi .div-comment label{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: rgba(153, 153, 153, 0.5);
+    font-weight: lighter;
+}
+main .contactez-moi .div-envoie{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+/* --============================================== *bounton d'envoie *==============================================-- */
+
+main .contactez-moi .div-envoie .btnEnvoi{
+    padding: 15px 210px;
+    font-size: 1.3em;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(to right, #EA3D3D, #ffe98a);
+    color: #fff;
+    text-transform: capitalize;
+    transition: transform .2s  ease-in-out;
+}
+
+main .contactez-moi .div-envoie .btnEnvoi:hover{
+    transform: scale(.95);
+    cursor: pointer;
+    padding: 13px 208px;
+    font-size: 1.2em;
+}
+
+/* --================================================== *footer *=========================================================-- */
+
+main footer{
+    letter-spacing: 2.5px;
+    background: #0b1320;
+    padding: 50px 60px;
+    color: #fff;
+}
+
+main footer .main-foot{
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid #999;
+}
+
+
+main footer .main-foot .box-footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .9em;
+    color: #fff;
+    font-weight: lighter;
+    transition: color .2s;
+}
+
+main footer .main-foot a i{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+main footer .main-foot  .box-footer{
+     padding: 10px 60px;
+}
+
+main footer .main-foot .box-footer a:hover{
+    color: #999;
+}
+
+
+
+ 
+
+
+
