@@ -628,7 +628,7 @@ main .contactez-moi .message .imageDraw svg{
 
 /* --====================================================* formulaire *===============================================-- */
 main .contactez-moi .formulaire legend{
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: normal;
     text-align: center;
@@ -643,6 +643,7 @@ main .contactez-moi .formulaire{
 main .contactez-moi form{
     width: 480px;
     margin: 50px auto;
+    padding: 0 25px;
 }
 
 main .contactez-moi .formulaire .div-input{
@@ -726,7 +727,7 @@ main .contactez-moi .div-comment label{
 main .contactez-moi .div-envoie{
     display: flex;
     justify-content: center;
-    margin: 70px;
+    margin: 50px;
 }
 
 /* --============================================== *bounton d'envoie *==============================================-- */
