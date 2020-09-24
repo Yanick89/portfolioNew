@@ -67,8 +67,14 @@ header .head-nav ul li a{
     color: #fff;
     letter-spacing: 2px;
     font-family: Poppins;
-
 }
+
+/* --================================= *hover*==========================================- */
+header .head-nav ul li a:hover{
+    color: #999;
+    transition: color .2s;
+}
+
 
 header .nav-second{
     display: inline-block;
@@ -77,6 +83,7 @@ header .nav-second{
     line-height: 35px;
     font-family: Poppins;
 }
+
 
 header .nav-second p:nth-child(1){
     font-size: 1.8em;
@@ -94,6 +101,7 @@ header .nav-second .souligne{
     background-color: #EA3D3D;
     margin-top: -10px;
 }
+
 
 /* --====================================* section a propos *========================================-- */
 
@@ -180,6 +188,12 @@ main .personal .icon span a i{
     border: 1px solid #0A0A0B;
     padding: 5px;
     border-radius: 4px;
+    transition: color .2s;
+}
+
+main .personal .icon span a i:hover{
+    color: #EA3D3D;
+    border: 1px solid #EA3D3D;
 }
 
 /* -====================================== * image *=====================================-*/
@@ -580,32 +594,35 @@ main .contactez-moi{
     height: 100vh;
     display: flex;
     padding: 50px; 
-    background: url("../img/Vector\ 1.png");
+    background: url("../img/curve.png");
     background-size: cover;
     background-repeat: no-repeat; 
-    /* background-position: 100%; */
 }
 
 
 main .contactez-moi .message{
     flex-grow: 1;
-    padding: 40px;
-    /* background: url("../img/Vector\ 1.png");
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 main .contactez-moi h1{
     font-size: 1.7em;
-    width: 55%;
+    width: 60%;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: 3em;
+    color: #EA3D3D;
 }
 
-main .contactez-moi h2{
+/* main .contactez-moi h2{
     font-size: 1.5em;
     text-transform: capitalize;
     font-weight: bold;
+    margin-left: 3em;
+} */
+main .contactez-moi .message .imageDraw svg{
+    margin-top: -25px;
+    padding: 40px;
+    width: 27em;
 }
 
 
@@ -639,7 +656,7 @@ main .contactez-moi .div-input i{
     position: absolute;
     top: 22px;
     left: 1px;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #999;
 }
 
