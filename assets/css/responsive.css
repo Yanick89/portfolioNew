@@ -267,7 +267,7 @@
 
     main .personal .box-img .image img{
         height: 345px;
-        left: 9.5%;
+        left: 11%;
         top: 2%;
         border-radius: 15px;
         display: inline-block;
@@ -282,8 +282,8 @@
     }
 
     main .service .second-block .block-service{
-        margin-top: 10px; 
-        margin-left: 20%;
+        margin-top: 50px; 
+        margin-left: 15%;
     }
 
     main .service .second-block i{
