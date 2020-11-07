@@ -273,6 +273,17 @@
         display: inline-block;
     } 
 
+    main .main-parcours .time-left{
+        top: 20px;
+    }
+
+    main .main-parcours .head-timeline .text{
+        width: 80%;
+    }
+    main .main-parcours .text-left{
+        width: 80%;
+    }
+
 
 
 /* --=========================* section service *=================-- */
@@ -282,7 +293,7 @@
     }
 
     main .service .second-block .block-service{
-        margin-top: 50px; 
+        margin-top: 70px; 
         margin-left: 15%;
     }
 
@@ -346,6 +357,10 @@
     }
 
 /* --===================* footer *===================-- */
+
+    footer{
+        width: 100%;
+    }
 
     footer p{
         font-size: 1.4em;
