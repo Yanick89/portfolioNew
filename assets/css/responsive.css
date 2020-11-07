@@ -262,13 +262,13 @@
         padding: 20px;
         height: 296px;
         width: 253px;
-        left: 20px;
+        left: 10px;
         border-radius: 15px;
     }
 
     main .personal .box-img .image img{
         height: 345px;
-        left: 15%;
+        left: 11%;
         top: 2%;
         border-radius: 15px;
         display: inline-block;
