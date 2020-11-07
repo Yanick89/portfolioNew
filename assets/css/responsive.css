@@ -1,0 +1,464 @@
+
+@media screen and (max-width: 756px){
+    body{
+        margin: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        padding: 0;
+    }
+
+    /* .nav-second{
+       display: none;
+    } */
+
+    nav{
+        display: none;
+    }
+ 
+    main .personal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titre{
+        text-align: center;
+    }
+
+    .description{
+        padding: 15px 10px;
+    }
+
+    main .personal p{
+        width: 100%;
+        text-align: center;
+    }
+
+    main .personal .infoPerso{
+        padding: 5px 160px;
+    }
+
+    main .personal .icon{
+        padding: 10px 170px;
+        font-size: 1.5em;
+    }
+
+
+    main .personal .box-img .item-img{
+        display: none;
+    }
+
+    main .personal .box-img .image img{
+        display: none;
+    } 
+
+    main .contenair-competence{
+        padding: 10px 25px;
+    }
+
+    main .contenair-competence > .second_2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main .main-parcours{
+        padding: 0;
+    }
+
+    main .main-parcours .head-timeline{
+        padding: 10px!important;
+    }
+
+    main .main-parcours:before{
+        height: 90%;
+		left: 8%;
+    }
+
+    main .main-parcours .head-timeline-left{
+        padding: 10px!important;   
+    }
+
+    main .main-parcours .head-timeline .marks{
+        margin: -15px;
+        top: 125px;
+        left: 8.9%;
+    }
+
+    main .main-parcours .marks-left{
+        top: 50px;
+        margin: -10px;
+        left: 8%;
+    }
+
+    main .main-parcours .head-timeline .time-right{
+        float: left;
+        left: 15%;
+        top: 85px;
+    }
+
+    main .main-parcours .head-timeline .text{
+        float: left;
+        width: 90%;
+        margin-top: 60px;
+        margin-left: 15%;
+    }
+
+    main .main-parcours .time-left{
+        left: 15%;
+    }
+
+    main .main-parcours .text-left{
+        float: left;
+        width: 90%;
+        margin-left: 15%;
+    }
+    
+
+    main .main-realisation .box-realisation{
+        background: none;   
+        box-shadow: none;
+    } 
+
+    main .main-realisation .box-realisation .box img{
+        box-sizing: inherit;
+        height: 350px;
+        width: 100%;
+    }
+
+    main .service .second-block .block-service{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+        margin-left: 28%;
+        height: 100vh;
+    }
+
+    main .service .second-block{
+        height: 100vh;
+    }
+
+
+    .hobbies{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .main-hobbies .hobbies .section-hobbie{
+        padding: 50px;
+    }
+
+    main .contactez-moi{
+        height: 100vh;
+        display: flex;
+        padding: 50px; 
+        background: none;
+    }
+
+    .message{
+        display: none;
+    }
+
+    main .contactez-moi form{
+        width: 350px;
+    }
+
+    main .contactez-moi .div-envoie .btnEnvoi{
+        padding: 15px 100px;
+    }
+    
+
+    .main-foot{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+/* -============* mobile *============- */
+
+@media only screen and (max-width : 479px) {
+	body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* --=====================* header *====================-- */
+    header{
+        width: 100%;
+        height: 100vh;
+        margin: 0; 
+        padding: 0;
+    }
+
+    header .head-nav{
+        padding: 30px 20px; 
+    }
+
+    header .head-nav h1{
+        font-size: 1.2em;
+    }
+
+     .nav-second{
+       padding: 90px 60px !important;
+       text-align: center;
+       margin: 0 !important;
+    }
+
+    
+    header .nav-second p:nth-last-child(2){
+        text-align: center;
+    }
+
+
+    header .nav-second .souligne{
+         margin-left: 40%;
+    }
+
+/* --=============* description de la personne *=================-- */
+    .description{
+        padding: 20px !important;
+    }
+
+
+    main .personal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .personal .infoPerso{
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    main .personal .icon{
+        padding: 15px 5px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    main .personal .icon span a i{
+        color: #EA3D3D !important;
+        border: 1px solid #EA3D3D;
+    }
+
+    /* --=================* profil *=====================-- */
+
+    main .personal .box-img{
+        padding: 20px 25px;
+        margin: 0;
+    }
+
+    main .personal .box-img .item-img{
+        display: inline-block;
+        padding: 20px;
+        height: 296px;
+        width: 253px;
+        border-radius: 15px;
+    }
+
+    main .personal .box-img .image img{
+        height: 345px;
+        left: 9.5%;
+        top: 2%;
+        border-radius: 15px;
+        display: inline-block;
+    } 
+
+
+
+/* --=========================* section service *=================-- */
+    main .main-realisation{
+        padding: 10px;
+        background-image: none;
+    }
+
+    main .service .second-block .block-service{
+        margin-top: 10px; 
+        margin-left: 20%;
+    }
+
+    main .service .second-block i{
+        box-shadow: 1px 0px 8px #0b132075;
+    }
+
+/* --============* section réalisation *==============-- */
+    main .main-realisation .box-realisation .box img{
+        box-shadow: 3px 0px 8px #0a101a75;
+        width: 100%;
+        height: 300px;
+    }
+
+    main .service .second-block .service-1,
+    main .service .second-block .service-2,
+    main .service .second-block .service-3{
+        padding: 0!important;
+        margin: 0!important;
+        text-align: center;
+    }
+
+    main .service .second-block{
+        height: 120vh;
+    }
+
+
+    main .main-hobbies{
+        padding: 20px;
+    }
+
+    main .main-hobbies .main-second h1{
+        padding: 20px;
+        text-align: center;
+    }
+
+    main .main-hobbies .hobbies .section-hobbie{
+        padding: 10px;
+    }
+
+    /* --================* formulaire *===============-- */
+
+    .message{
+        display: none;
+    }
+
+    main .contactez-moi{
+        padding: 20px !important;
+    }
+
+    main .contactez-moi form{
+        width: 275px;
+    }
+
+    main .contactez-moi .formulaire{
+        border-radius: 15px;
+    }
+
+    main .contactez-moi .div-envoie .btnEnvoi{
+        padding: 15px 100px;
+    }
+
+/* --===================* footer *===================-- */
+
+    footer p{
+        font-size: 1.4em;
+    }
+
+    main footer{
+        padding: 15px;
+    }
+
+    main footer .main-foot{
+        font-size: 1.2em;
+    }
+
+    main footer .main-foot .box-footer{
+        padding: 0;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width : 336px){
+
+    header .head-nav{
+        padding: 30px 10px; 
+    }
+
+    header .head-nav h1{
+        font-size: 1.2em;
+    }
+
+     .nav-second{
+       padding: 90px 40px !important;
+       text-align: center;
+       margin: 0 !important;
+    }
+
+
+    main .personal .box-img{
+        padding: 20px 25px;
+        margin: 0;
+    }
+
+    main .personal .box-img .item-img{
+        display: inline-block;
+        padding: 20px;
+        height: 260px;
+        width: 209px;
+        border-radius: 15px;
+    }
+
+    main .personal .box-img .image img{
+        height: 295px;
+        left: 11.5%;
+        top: 2.5%;
+        border-radius: 15px;
+        display: inline-block;
+    } 
+
+/* --=================* services *==================-- */
+main .service .second-block .block-service{
+    margin-top: 100px;
+    margin-left: 12%;
+}
+
+
+/* --==============*réalisations *=================-- */
+main .main-realisation .box-realisation .box img{
+    height: 220px;
+}
+
+/* --=================* formulaire *==============-- */
+
+main .contactez-moi{
+    padding: 20px !important;
+}
+
+main .contactez-moi form{
+    width: 230px;
+    padding: 0;
+}
+
+main .contactez-moi .formulaire{
+    border-radius: 15px;
+}
+
+main .contactez-moi .div-envoie .btnEnvoi{
+    padding: 12px 70px;
+}
+
+
+/* --===============* footer *=====================-- */
+
+
+main footer{
+    padding: 10px !important;
+}
+
+
+main footer .main-foot{
+    padding-left: -10px;
+    font-size: .91em;
+}
+
+main footer .main-foot .box-footer a{
+    padding-left: -10px;
+}
+
+main footer .main-foot .box-footer{
+    padding: 0;
+}
+
+
+
+}

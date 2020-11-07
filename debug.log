@@ -6,3 +6,8 @@
 [0827/083031.401:ERROR:exception_snapshot_win.cc(98)] thread ID 9300 not found in process
 [0827/083031.401:ERROR:exception_snapshot_win.cc(98)] thread ID 10944 not found in process
 [0827/083031.401:ERROR:exception_snapshot_win.cc(98)] thread ID 5052 not found in process
+[1010/210615.525:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1011/100634.185:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1106/135508.051:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1107/074250.850:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1107/092551.299:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)

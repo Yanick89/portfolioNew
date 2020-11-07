@@ -69,6 +69,14 @@ header .head-nav ul li a{
     font-family: Poppins;
 }
 
+/* --===============================* meunu burger caché *===========================-- */
+.menu{
+    visibility: hidden;
+}
+
+
+
+
 /* --================================= *hover*==========================================- */
 header .head-nav ul li a:hover{
     color: #999;
@@ -111,34 +119,31 @@ main .personal{
     justify-content: space-between;
     padding: 10px 20px 0 0;
     font-family: Poppins;
-
 }
 
 main .personal .description{
     padding: 50px 70px;
-}
-
-main .personal .description{
     line-height: 20px;
 }
+
 main .personal .description #propos{
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-size: 1.8em;
-    }
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 1.8em;
+}
 
 main .personal .description .full{
-        padding: 10px 0 5px;
-        line-height: 30px;  
-        letter-spacing: .5px; 
-
-    }
+    padding: 10px 0 5px;
+    line-height: 30px;  
+    letter-spacing: .5px; 
+}
 
 main .personal .description .full span:nth-child(1){
     text-transform: capitalize;
     font-size: 1.4em;
     color: #EA3D3D;
 }
+
 main .personal .description .full span:nth-child(2){
     text-transform: uppercase;
     font-size: .9em;    
@@ -159,7 +164,7 @@ main .personal .infoPerso{
 }
 main .personal .infoPerso a{
     text-decoration: none;
-    color: #000;
+    color: #0b1320;
     font-weight: bold;
 }
 
@@ -426,7 +431,8 @@ main .service{
 
 main .service .first-block{
     height: 50vh;
-    background-image: url(../css/ord4.jpg);
+    background: linear-gradient(rgb(10 10 11 /70%), rgb(153 153 153 / 85%)), url(../css/ord4.jpg);
+    background-blend-mode: screen;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -499,7 +505,7 @@ main .main-realisation{
     background: url("../img/ord2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.5px; 
 }
 
 main .main-realisation #realisation{
@@ -526,6 +532,7 @@ main .main-realisation .box-realisation .box{
     transition: transform .3s;
 }
 
+
 /* -============================================* images de couverture *==========================================- */
 main .main-realisation .box-realisation .box img{
 	box-sizing: inherit;
@@ -537,7 +544,7 @@ main .main-realisation .box-realisation .box img{
 }
 
 main .main-realisation .box-realisation .box:hover{
-    transform: scale(.97);
+    transform: scale(.99);
 }
 main .main-realisation .box-realisation .box img:hover{
     box-shadow: 0 0 12px rgb(26, 26, 26);
@@ -550,7 +557,6 @@ main .main-hobbies{
     letter-spacing: 2.5px;
     background: #0b1320;
 }
-
 
 
 main .main-hobbies .hobbies{
@@ -613,12 +619,6 @@ main .contactez-moi h1{
     color: #EA3D3D;
 }
 
-/* main .contactez-moi h2{
-    font-size: 1.5em;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin-left: 3em;
-} */
 main .contactez-moi .message .imageDraw svg{
     margin-top: -25px;
     padding: 40px;
@@ -633,6 +633,7 @@ main .contactez-moi .formulaire legend{
     font-weight: normal;
     text-align: center;
 }
+
 main .contactez-moi .formulaire{
     flex-grow: 1;
     opacity: .8;
@@ -646,12 +647,17 @@ main .contactez-moi form{
     padding: 0 25px;
 }
 
+
 main .contactez-moi .formulaire .div-input{
     position: relative;
     padding: 15px 0;
     border-bottom: 2px solid #999;
     margin: 25px 0;
 }
+
+/* -==========================================*effets *====================================================--*/
+
+
 
 main .contactez-moi .div-input i{
     position: absolute;
@@ -660,6 +666,7 @@ main .contactez-moi .div-input i{
     font-size: 1.8em;
     color: #999;
 }
+
 
 main .contactez-moi .div-input label{
     position: relative;
@@ -730,7 +737,7 @@ main .contactez-moi .div-envoie{
     margin: 50px;
 }
 
-/* --============================================== *bounton d'envoie *==============================================-- */
+/* --============================================== *bouton d'envoi *==============================================-- */
 
 main .contactez-moi .div-envoie .btnEnvoi{
     padding: 15px 210px;
@@ -789,8 +796,11 @@ main footer .main-foot .box-footer a:hover{
 }
 
 
+/* --===================================* responsive *==============================================-- */
+
+
+
 
  
-
 
 
