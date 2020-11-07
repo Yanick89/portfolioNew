@@ -262,12 +262,13 @@
         padding: 20px;
         height: 296px;
         width: 253px;
+        left: 25px;
         border-radius: 15px;
     }
 
     main .personal .box-img .image img{
         height: 345px;
-        left: 11%;
+        left: 15%;
         top: 2%;
         border-radius: 15px;
         display: inline-block;
@@ -282,6 +283,7 @@
     }
     main .main-parcours .text-left{
         width: 80%;
+        margin-left: 18%;
     }
 
 
