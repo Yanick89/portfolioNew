@@ -618,7 +618,7 @@ main .contactez-moi h1{
 }
 
 main .contactez-moi .message .imageDraw svg{
-    margin-top: -100px;
+    margin-top: 25px;
     padding: 40px;
     width: 27em;
 }
@@ -641,6 +641,7 @@ main .contactez-moi .formulaire{
 
 main .contactez-moi form{
     width: 480px;
+    margin: 50px auto;
     padding: 0 25px;
 }
 
