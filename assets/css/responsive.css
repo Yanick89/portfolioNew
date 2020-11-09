@@ -222,7 +222,7 @@
     }
 
      .nav-second{
-       padding: 90px 60px !important;
+       /* padding: 90px 60px !important; */
        text-align: center;
        margin: 0 !important;
     }
@@ -414,6 +414,10 @@
        margin: 0 !important;
     }
 
+    main .personal{
+        padding: 0 !important;
+    }
+
 
     main .personal .box-img{
         padding: 20px 25px;
@@ -491,7 +495,7 @@ main footer .main-foot .box-footer{
 
 main footer .main-foot .trois-ico .btn-haut a{
     position: relative;
-    left: 80%;
+    left: 70%;
 }
 
 
