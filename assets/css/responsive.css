@@ -41,12 +41,12 @@
     }
 
     main .personal .infoPerso{
-        padding: 5px 160px;
+        text-align: center;
     }
 
     main .personal .icon{
-        padding: 10px 170px;
         font-size: 1.5em;
+        text-align: center;
     }
 
 
@@ -166,6 +166,7 @@
 
     main .contactez-moi form{
         width: 350px;
+        margin: 50px auto;
     }
 
     main .contactez-moi .div-envoie .btnEnvoi{
@@ -178,9 +179,17 @@
         flex-direction: column;
     }
 
+
+    main footer .main-foot .trois-ico .btn-haut a{
+        position: relative;
+        left: 90%;
+    }
+    main footer .main-foot .trois-ico .btn-haut a i{
+        margin-bottom: 10px;
+    }
+
+
 }
-
-
 
 /* -============* mobile *============- */
 
@@ -389,8 +398,6 @@
 }
 
 
-
-
 @media only screen and (max-width : 336px){
 
     header .head-nav{
@@ -481,6 +488,12 @@ main footer .main-foot .box-footer a{
 main footer .main-foot .box-footer{
     padding: 0;
 }
+
+main footer .main-foot .trois-ico .btn-haut a{
+    position: relative;
+    left: 80%;
+}
+
 
 
 

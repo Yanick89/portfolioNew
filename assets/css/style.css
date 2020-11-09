@@ -618,7 +618,7 @@ main .contactez-moi h1{
 }
 
 main .contactez-moi .message .imageDraw svg{
-    margin-top: -25px;
+    margin-top: -100px;
     padding: 40px;
     width: 27em;
 }
@@ -641,7 +641,6 @@ main .contactez-moi .formulaire{
 
 main .contactez-moi form{
     width: 480px;
-    margin: 50px auto;
     padding: 0 25px;
 }
 
@@ -792,6 +791,29 @@ main footer .main-foot  .box-footer{
 main footer .main-foot .box-footer a:hover{
     color: #999;
 }
+
+/* main footer .main-foot .trois-ico .btn-haut a{
+    position: relative;
+    text-align: end;
+
+} */
+
+main footer .main-foot .trois-ico .btn-haut a i{
+    font-size: .9em;
+    padding: 9px;
+    font-weight: 200;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: color .2s;
+    color: #fff;
+}
+
+main footer .main-foot .trois-ico .btn-haut a i:hover{
+    color: #0b1320;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+    
 
 
 /* --===================================* responsive *==============================================-- */
