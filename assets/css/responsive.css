@@ -1,282 +1,289 @@
+@media screen and (max-width: 960px) {
+    /* --===============================* meunu burger caché *===========================-- */
+    header .none1 {
+        display: none;
+    }
+    header .menu {
+        display: none;
+        /* display: inline-block; */
+        width: 100%;
+        height: 90vh;
+        background-color: #fff;
+        border-radius: 0 0 0 10%;
+    }
+    header .menu .close {
+        display: none;
+    }
+    header .menu .bars {
+        font-size: 3.2em;
+        font-weight: 300;
+        /* color: #0b1320; */
+        color: #fff;
+        padding: 20px;
+    }
+    header .menu .menu-bars {
+        /* display: none; */
+        background: #ff0;
+        line-height: 50px;
+        text-align: center;
+        /* padding: 0 91px; */
+    }
+    header .menu .menu-bars ul {
+        display: inline-block;
+        text-align: center;
+        margin: 50px 0;
+        padding: 0;
+    }
+    header .menu .menu-bars ul li {
+        border-top: 1px solid rgba(250, 250, 250, .3);
+        border-bottom: 1px solid #0b1320;
+        width: 90%;
+    }
+    header .menu .menu-bars ul li a {
+        color: #000;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        transition: all ease .5s;
+    }
+    /* main .main-parcours {
+        padding: 0;
+    }
+    main .main-parcours:before {
+        top: 5em;
+    }
+    main .main-parcours .head-timeline {
+        padding: 0;
+    }
+    main .main-parcours .time-left {
+        margin-left: -50px;
+    }
+    main .main-parcours .head-timeline-left {
+        padding: 0;
+    } */
+}
 
-@media screen and (max-width: 756px){
-    body{
+@media screen and (max-width: 756px) {
+    body {
         margin: 0;
         width: 100%;
         margin: 0;
         padding: 0;
     }
-
-    header{
+    header {
         width: 100%;
         height: 100vh;
-        margin: 0; 
+        margin: 0;
         padding: 0;
     }
-
     /* .nav-second{
        display: none;
     } */
-
-    nav{
+    nav {
         display: none;
     }
- 
-    main .personal{
+    main .personal {
         display: flex;
         flex-direction: column;
     }
-
-    .titre{
+    .titre {
         text-align: center;
     }
-
-    .description{
+    .description {
         padding: 15px 10px;
     }
-
-    main .personal p{
+    main .personal p {
         width: 100%;
         text-align: center;
     }
-
-    main .personal .infoPerso{
+    main .personal .infoPerso {
         text-align: center;
     }
-
-    main .personal .icon{
+    main .personal .icon {
         font-size: 1.5em;
         text-align: center;
     }
-
-
-    main .personal .box-img .item-img{
+    main .personal .box-img .item-img {
         display: none;
     }
-
-    main .personal .box-img .image img{
+    main .personal .box-img .image img {
         display: none;
-    } 
-
-    main .contenair-competence{
+    }
+    main .contenair-competence {
         padding: 10px 25px;
     }
-
-    main .contenair-competence > .second_2{
+    main .contenair-competence>.second_2 {
         width: 100%;
         margin-bottom: 20px;
     }
-
-    main .main-parcours{
+    main .main-parcours {
         padding: 0;
     }
-
-    main .main-parcours .head-timeline{
+    main .main-parcours .head-timeline {
         padding: 10px!important;
     }
-
-    main .main-parcours:before{
+    main .main-parcours:before {
         height: 90%;
-		left: 8%;
+        left: 8%;
     }
-
-    main .main-parcours .head-timeline-left{
-        padding: 10px!important;   
+    main .main-parcours .head-timeline-left {
+        padding: 10px!important;
     }
-
-    main .main-parcours .head-timeline .marks{
+    main .main-parcours .head-timeline .marks {
         margin: -15px;
         top: 125px;
         left: 8.9%;
     }
-
-    main .main-parcours .marks-left{
+    main .main-parcours .marks-left {
         top: 50px;
         margin: -10px;
         left: 8%;
     }
-
-    main .main-parcours .head-timeline .time-right{
+    main .main-parcours .head-timeline .time-right {
         float: left;
         left: 15%;
         top: 85px;
     }
-
-    main .main-parcours .head-timeline .text{
+    main .main-parcours .head-timeline .text {
         float: left;
         width: 90%;
         margin-top: 60px;
         margin-left: 15%;
     }
-
-    main .main-parcours .time-left{
+    main .main-parcours .time-left {
         left: 15%;
     }
-
-    main .main-parcours .text-left{
+    main .main-parcours .text-left {
         float: left;
         width: 90%;
         margin-left: 15%;
     }
-    
-
-    main .main-realisation .box-realisation{
-        background: none;   
+    main .main-realisation .box-realisation {
+        background: none;
         box-shadow: none;
-    } 
-
-    main .main-realisation .box-realisation .box img{
+        width: auto;
+        padding: 0;
+    }
+    main .main-realisation .box-realisation .box img {
         box-sizing: inherit;
-        height: 350px;
+        height: 100%;
         width: 100%;
     }
-
-    main .service .second-block .block-service{
+    main .service .second-block .block-service {
         display: flex;
         flex-direction: column;
-        margin-top: -100px;
-        margin-left: 28%;
         height: 100vh;
     }
-
-    main .service .second-block{
-        height: 100vh;
+    main .service .second-block .service-1,
+    main .service .second-block .service-2,
+    main .service .second-block .service-3 {
+        margin: 0 auto;
     }
-
-
-    .hobbies{
+    main .service .second-block {
+        height: 120vh;
+        margin-top: 20%;
+    }
+    .hobbies {
         display: flex;
         flex-direction: column-reverse;
     }
-
-    main .main-hobbies .hobbies .section-hobbie{
+    main .main-hobbies .hobbies .section-hobbie {
         padding: 50px;
     }
-
-    main .contactez-moi{
+    main .contactez-moi {
         height: 100vh;
         display: flex;
-        padding: 50px; 
+        padding: 50px;
         background: none;
     }
-
-    .message{
+    .message {
         display: none;
     }
-
-    main .contactez-moi form{
+    main .contactez-moi form {
         width: 350px;
         margin: 50px auto;
     }
-
-    main .contactez-moi .div-envoie .btnEnvoi{
+    main .contactez-moi .div-envoie .btnEnvoi {
         padding: 15px 100px;
     }
-    
-
-    .main-foot{
+    .main-foot {
         display: flex;
         flex-direction: column;
     }
-
-
-    main footer .main-foot .trois-ico .btn-haut a{
+    main footer .main-foot .trois-ico .btn-haut a {
         position: relative;
         left: 90%;
     }
-    main footer .main-foot .trois-ico .btn-haut a i{
+    main footer .main-foot .trois-ico .btn-haut a i {
         margin-bottom: 10px;
     }
-
-
 }
+
 
 /* -============* mobile *============- */
 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width: 479px) {
     /* *{
         width: 100%;
     } */
-
-
-	body{
+    body {
         margin: 0;
         padding: 0;
         width: 100%;
     }
-
-
-/* --=====================* header *====================-- */
-    header{
+    /* --=====================* header *====================-- */
+    header {
         width: 100%;
         height: 100vh;
-        margin: 0; 
+        margin: 0;
         padding: 0;
     }
-
-    header .head-nav{
-        padding: 30px 20px; 
+    header .head-nav {
+        padding: 30px 20px;
     }
-
-    header .head-nav h1{
+    header .head-nav h1 {
         font-size: 1.2em;
     }
-
-     .nav-second{
-       /* padding: 90px 60px !important; */
-       text-align: center;
-       margin: 0 !important;
+    .nav-second {
+        /* padding: 90px 60px !important; */
+        text-align: center;
+        margin: 0 !important;
     }
-
-    header .nav-second p:nth-child(1){
+    header .nav-second p:nth-child(1) {
         padding: 15px;
     }
-
-    
-    header .nav-second p:nth-last-child(2){
+    header .nav-second p:nth-last-child(2) {
         text-align: center;
     }
-
-
-    header .nav-second .souligne{
-         margin-left: 40%;
+    header .nav-second .souligne {
+        margin-left: 40%;
     }
-
-/* --=============* description de la personne *=================-- */
-    .description{
+    /* --=============* description de la personne *=================-- */
+    .description {
         padding: 20px !important;
     }
-
-
-    main .personal{
+    main .personal {
         display: flex;
         flex-direction: column;
     }
-
-    main .personal .infoPerso{
+    main .personal .infoPerso {
         padding: 0 !important;
         text-align: center;
     }
-
-    main .personal .icon{
+    main .personal .icon {
         padding: 15px 5px;
         font-size: 1.4em;
         text-align: center;
     }
-
-    main .personal .icon span a i{
+    main .personal .icon span a i {
         color: #EA3D3D !important;
         border: 1px solid #EA3D3D;
     }
-
     /* --=================* profil *=====================-- */
-
-    main .personal .box-img{
+    main .personal .box-img {
         padding: 20px 25px;
         margin: 0;
     }
-
-    main .personal .box-img .item-img{
+    main .personal .box-img .item-img {
         display: inline-block;
         padding: 20px;
         height: 296px;
@@ -284,226 +291,185 @@
         left: 10px;
         border-radius: 15px;
     }
-
-    main .personal .box-img .image img{
+    main .personal .box-img .image img {
         height: 320px;
         left: 13%;
         top: 3%;
         border-radius: 15px;
         display: inline-block;
-    } 
-
-    main .main-parcours .time-left{
+    }
+    main .main-parcours .time-left {
         top: 20px;
     }
-
-    main .main-parcours .head-timeline .text{
+    main .main-parcours .head-timeline .text {
         width: 80%;
     }
-    main .main-parcours .text-left{
+    main .main-parcours .text-left {
         width: 80%;
         margin-left: 18%;
     }
-
-
-
-/* --=========================* section service *=================-- */
-    main .main-realisation{
-        padding: 10px;
-        background-image: none;
+    /* --=========================* section service *=================-- */
+    main .service .second-block .block-service {
+        margin-top: -100px;
     }
-
-    main .service .second-block .block-service{
-        margin-top: 70px; 
-        margin-left: 15%;
-    }
-
-    main .service .second-block i{
+    main .service .second-block i {
         box-shadow: 1px 0px 8px #0b132075;
     }
-
-/* --============* section réalisation *==============-- */
-    main .main-realisation .box-realisation .box img{
-        box-shadow: 3px 0px 8px #0a101a75;
-        width: 100%;
-        height: 300px;
-    }
-
-    main .service .second-block .service-1,
-    main .service .second-block .service-2,
-    main .service .second-block .service-3{
-        padding: 0!important;
-        margin: 0!important;
-        text-align: center;
-    }
-
-    main .service .second-block{
-        height: 120vh;
-    }
-
-
-    main .main-hobbies{
-        padding: 20px;
-    }
-
-    main .main-hobbies .main-second h1{
-        padding: 20px;
-        text-align: center;
-    }
-
-    main .main-hobbies .hobbies .section-hobbie{
+    /* --============* section réalisation *==============-- */
+    main .main-realisation {
+        display: block;
         padding: 10px;
     }
-
+    main .main-realisation .box-realisation .box {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    main .main-realisation .box-realisation .box img {
+        box-shadow: 3px 0px 8px #0a101a75;
+        width: 100%;
+        height: 100%;
+    }
+    main .service .second-block .service-1,
+    main .service .second-block .service-2,
+    main .service .second-block .service-3 {
+        padding: 0!important;
+        margin: 0 auto!important;
+        text-align: center;
+    }
+    main .service .second-block {
+        height: 120vh;
+    }
+    main .main-hobbies {
+        padding: 20px;
+    }
+    main .main-hobbies .main-second h1 {
+        padding: 20px;
+        text-align: center;
+    }
+    main .main-hobbies .hobbies .section-hobbie {
+        padding: 10px;
+    }
     /* --================* formulaire *===============-- */
-
-    .message{
+    .message {
         display: none;
     }
-
-    main .contactez-moi{
+    main .contactez-moi {
         padding: 20px !important;
     }
-
-    main .contactez-moi form{
+    main .contactez-moi form {
         width: 275px;
     }
-
-    main .contactez-moi .formulaire{
+    main .contactez-moi .formulaire {
         border-radius: 15px;
     }
-
-    main .contactez-moi .div-envoie .btnEnvoi{
+    main .contactez-moi .div-envoie .btnEnvoi {
         padding: 15px 100px;
     }
-
-/* --===================* footer *===================-- */
-
+    /* --===================* footer *===================-- */
     /* footer{
         width: 100%;
     } */
-
-    footer p{
+    footer p {
         font-size: 1.4em;
     }
-
-    main footer{
+    main footer {
         padding: 15px;
     }
-
-    main footer .main-foot{
+    main footer .main-foot {
         font-size: 1.2em;
     }
-
-    main footer .main-foot .box-footer{
+    main footer .main-foot .box-footer {
         padding: 0;
         font-size: .9em;
     }
-
 }
 
-
-@media only screen and (max-width : 336px){
-
-    header .head-nav{
-        padding: 30px 10px; 
+@media only screen and (max-width: 336px) {
+    header .head-nav {
+        padding: 30px 10px;
     }
-
-    header .head-nav h1{
+    header .head-nav h1 {
         font-size: 1.2em;
     }
-
-     .nav-second{
-       padding: 90px 40px !important;
-       text-align: center;
-       margin: 0 !important;
+    .nav-second {
+        padding: 90px 40px !important;
+        text-align: center;
+        margin: 0 !important;
     }
-
-    main .personal{
+    main .personal {
         padding: 0 !important;
     }
-
-
-    main .personal .box-img{
+    main .personal .box-img {
         padding: 20px 25px;
         margin: 0;
     }
-
-    main .personal .box-img .item-img{
+    main .personal .box-img .item-img {
         display: inline-block;
         padding: 20px;
         height: 260px;
         width: 209px;
         border-radius: 15px;
     }
-
-    main .personal .box-img .image img{
+    main .personal .box-img .image img {
         height: 295px;
         left: 11.5%;
         top: 2.5%;
         border-radius: 15px;
         display: inline-block;
-    } 
-
-/* --=================* services *==================-- */
-main .service .second-block .block-service{
-    margin-top: 100px;
-    margin-left: 12%;
-}
-
-
-/* --==============*réalisations *=================-- */
-main .main-realisation .box-realisation .box img{
-    height: 220px;
-}
-
-/* --=================* formulaire *==============-- */
-
-main .contactez-moi{
-    padding: 20px !important;
-}
-
-main .contactez-moi form{
-    width: 230px;
-    padding: 0;
-}
-
-main .contactez-moi .formulaire{
-    border-radius: 15px;
-}
-
-main .contactez-moi .div-envoie .btnEnvoi{
-    padding: 12px 70px;
-}
-
-
-/* --===============* footer *=====================-- */
-
-
-main footer{
-    padding: 10px !important;
-}
-
-
-main footer .main-foot{
-    padding-left: -10px;
-    font-size: .91em;
-}
-
-main footer .main-foot .box-footer a{
-    padding-left: -10px;
-}
-
-main footer .main-foot .box-footer{
-    padding: 0;
-}
-
-main footer .main-foot .trois-ico .btn-haut a{
-    position: relative;
-    left: 70%;
-}
-
-
-
-
+    }
+    /* --=================* services *==================-- */
+    main .service .second-block .block-service {
+        margin-top: 100px;
+        /* margin-left: 12%; */
+    }
+    /* --==============*réalisations *=================-- */
+    main .main-realisation .box-realisation .box img {
+        height: 100%;
+    }
+    /* --=================* formulaire *==============-- */
+    main .contactez-moi {
+        padding: 20px !important;
+    }
+    main .contactez-moi form {
+        width: 230px;
+        padding: 0;
+    }
+    main .contactez-moi .formulaire {
+        border-radius: 15px;
+    }
+    main .contactez-moi .div-envoie .btnEnvoi {
+        padding: 12px 70px;
+    }
+    /* --===============* footer *=====================-- */
+    main footer {
+        padding: 10px !important;
+    }
+    main footer .main-foot {
+        padding-left: -10px;
+        font-size: .91em;
+    }
+    main footer .main-foot .box-footer a {
+        padding-left: -10px;
+    }
+    main footer .main-foot .box-footer {
+        padding: 0;
+    }
+    main footer .main-foot .trois-ico .btn-haut a {
+        position: relative;
+        left: 70%;
+    }
+    /* --========================* Iphone 4s *=====================-- */
+    @media only screen and (max-width: 320px) {
+        html {
+            overflow-x: hidden;
+        }
+        main header {
+            height: auto;
+        }
+        /* --=================* services *==================-- */
+        main .service .second-block .block-service {
+            margin-top: -2%;
+            font-size: .8em;
+        }
+    }
 }

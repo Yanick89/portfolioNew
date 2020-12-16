@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="fr" />
+    <meta name="description" content="portfolio de developpeur web frontend">
+    <meta name="keywords" content="moussounda,yanick, portfolio,developpeurweb,developpeurfrontend,gabon,moussoundayanick,gabonais">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
@@ -14,12 +16,12 @@
 </head>
 
 <body>
-    <main>
+    <main id="fullpage">
         <!--===================================* en-tete *=========================================== -->
         <header>
             <div class="head-nav">
                 <h1><a href="#">yanick</a></h1>
-                <nav id="link">
+                <nav id="link" class="none1">
                     <ul>
                         <li><a href="#propos">a propos</a> </li>
                         <li><a href="#competences">competences</a></li>
@@ -27,9 +29,22 @@
                         <li><a href="#realisation">realisations</a></li>
                     </ul>
                 </nav>
-                <!-- <a><i class="fa fa-bars" aria-hidden="true"></i> -->
 
+                <!-- =================* link burger *==================== -->
+                <div class="head-menu menu">
+                    <i class="fa fa-bars  bars close-bar" aria-hidden="true"></i>
+                    <div class="menu-bars close">
+                        <ul>
+                            <li><a href="#propos">a propos</a> </li>
+                            <li><a href="#competences">competences</a></li>
+                            <li><a href="#parcours">parcours</a></li>
+                            <li><a href="#realisation">realisations</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
+
 
             <div class="nav-second">
                 <p>developpeur web/web mobile<br> et UX/Ui Designer</p>
@@ -59,13 +74,17 @@
                 <div class="infoPerso">
 
                     <a><i class="fa fa-play" aria-hidden="true"></i> MOUSSOUNDA Yanick </a> <br>
-                    <a href="tel: +241 62 21 34 91"><i class="fa fa-play" aria-hidden="true"></i>Tel: +241 62 21 34 91</a>
+                    <a href="tel: +241 62 21 34 91"><i class="fa fa-play" aria-hidden="true"></i>Tel: +241 62 21 34
+                        91</a>
                 </div>
 
                 <div class="icon">
-                    <span><a href="https://twitter.com/YMouss89"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></span>
-                    <span><a href="https://github.com/Yanick89"> <i class="fa fa-github" aria-hidden="true"></i> </a></span>
-                    <span><a href="https://www.linkedin.com/in/yanick-ymouss-5a04761a2/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                    <span><a href="https://twitter.com/YMouss89"> <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a></span>
+                    <span><a href="https://github.com/Yanick89"> <i class="fa fa-github" aria-hidden="true"></i>
+                        </a></span>
+                    <span><a href="https://www.linkedin.com/in/yanick-ymouss-5a04761a2/"> <i class="fa fa-linkedin"
+                                aria-hidden="true"></i></a></span>
                 </div>
             </div>
             <!-- ===================================* image dans la bulle *============================================ -->
@@ -237,21 +256,51 @@
             <div class="box-realisation">
                 <div class="box">
                     <a href=""><img src="assets/img/luce.PNG"></a>
+                    <div class="texte">
+                        <h2>Luce Beauty</h2>
+                        <p>Modification d'un template avec Bootstrap</p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i> </p>
+                    </div>
                 </div>
                 <div class="box">
                     <a href="https://yanick89.github.io/index/" target="_blank"><img src="./assets/img/lettre1.png"></a>
+                    <div class="texte">
+                        <h2>Liste de Motivation</h2>
+                        <p>Exercice de salle, sur l'établissement d'une liste de récommandation codée à quelques semaines de la formation</p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i></p>
+                    </div>
                 </div>
                 <div class="box">
-                    <a href="https://yanick89.github.io/lisence/" target="_blank"><img src="./assets/img/Liste.png"> </a>
+                    <a href="https://yanick89.github.io/lisence/" target="_blank"><img src="./assets/img/Liste.png"></a>
+                    <div class="texte">
+                        <h2>Liste de Présence</h2>
+                        <p>Exercice de salle, sur l'établissement d'une liste de toute de la cohorte de dévloppeur</p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i></p>
+                    </div>
                 </div>
                 <div class="box">
                     <a href="https://yanick89.github.io/int-gration/" target="_blank"><img src="assets/img/integration.PNG"></a>
+                    <div class="texte">
+                        <h2>Our Review</h2>
+                        <p>Modele d'intégration avec du html, css et du Javascript </p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i> </p>
+                    </div>
                 </div>
                 <div class="box">
                     <a href="https://yanick89.github.io/meteo/" target="_blank"><img src="assets/img/meteo.png"></a>
+                    <div class="texte">
+                        <h2>Météo Job</h2>
+                        <p>Intégration de la page d'une plateforme de recherche d'emploi</p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i> </p>
+                    </div>
                 </div>
                 <div class="box">
                     <a href="https://yanick89.github.io/M-dia/" target="_blank"><img src="assets/img/media.PNG"></a>
+                    <div class="texte">
+                        <h2>DuWul</h2>
+                        <p>Plateforme de musiques, d'images et de vidéos</p>
+                        <p><i class="fa fa-link" aria-hidden="true"></i> </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,10 +311,14 @@
             <div class="hobbies">
                 <div class="section-hobbie">
                     <div class="box-ico"><i class="fa fa-book" aria-hidden="true"></i><span>lecture</span></div>
-                    <div class="box-ico"><i class="fa fa-camera" aria-hidden="true"></i><span>la photographie</span></div>
-                    <div class="box-ico"><i class="fa fa-headphones" aria-hidden="true"></i><span>ecouter de la musique</span></div>
-                    <div class="box-ico"><i class="fa fa-film" aria-hidden="true"></i><span>regarder des documentaires, des series, mangas</span></div>
-                    <div class="box-ico"> <i class="fa fa-futbol-o" aria-hidden="true"></i><span>regarder et pratiquer du sport</span></div>
+                    <div class="box-ico"><i class="fa fa-camera" aria-hidden="true"></i><span>la photographie</span>
+                    </div>
+                    <div class="box-ico"><i class="fa fa-headphones" aria-hidden="true"></i><span>ecouter de la
+                            musique</span></div>
+                    <div class="box-ico"><i class="fa fa-film" aria-hidden="true"></i><span>regarder des documentaires,
+                            des series, mangas</span></div>
+                    <div class="box-ico"> <i class="fa fa-futbol-o" aria-hidden="true"></i><span>regarder et pratiquer
+                            du sport</span></div>
                 </div>
 
                 <div class="main-second">
@@ -323,16 +376,21 @@
             <div class="main-foot">
 
                 <div class="un-ico">
-                    <div class="box-footer"><a href="moussoundayannick89@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>yanick@okacode.dev</a></div>
-                    <div class="box-footer"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Charbonnages, Ondogo</a></div>
-                    <div class="box-footer"><a href="tel: +241 62 21 34 91"><i class="fa fa-phone" aria-hidden="true"></i>Tel: +241 62 21 34 91</a></div>
+                    <div class="box-footer"><a href="moussoundayannick89@gmail.com"><i class="fa fa-envelope"
+                                aria-hidden="true"></i>yanick@okacode.dev</a></div>
+                    <div class="box-footer"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Charbonnages,
+                            Ondogo</a></div>
+                    <div class="box-footer"><a href="tel: +241 62 21 34 91"><i class="fa fa-phone"
+                                aria-hidden="true"></i>Tel: +241 62 21 34 91</a></div>
                 </div>
                 <div class="deux-ico">
                     <div class="box-footer">
-                        <a href="https://twitter.com/YMouss89"> <i class="fa fa-twitter" aria-hidden="true"></i> twitter</a>
+                        <a href="https://twitter.com/YMouss89"> <i class="fa fa-twitter" aria-hidden="true"></i> twitter
+                        </a>
                     </div>
                     <div class="box-footer">
-                        <a href="https://github.com/Yanick89"> <i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        <a href="https://github.com/Yanick89"> <i class="fa fa-github" aria-hidden="true"></i> github
+                        </a>
                     </div>
                     <div class="box-footer">
                         <a href="https://www.linkedin.com/in/yanick-ymouss-5a04761a2/"> <i class="fa fa-linkedin" aria-hidden="true"></i>linkedin</a>
@@ -350,6 +408,7 @@
 
 
     </main>
+    <script src="./assets/js/fullpage.min.js"></script>
     <script src="./assets/js/portfolio.js"></script>
 </body>
 

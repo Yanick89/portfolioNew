@@ -71,6 +71,10 @@ header .head-nav ul li a {
 
 /* --===============================* meunu burger caché *===========================-- */
 
+header .menu {
+    display: none;
+}
+
 
 /* --================================= *hover*==========================================- */
 
@@ -533,11 +537,14 @@ main .service .second-block .service-3 {
 /* -===================================* realisations *========================================================- */
 
 main .main-realisation {
-    padding: 50px;
-    background: url("../img/ord2.jpg");
+    padding: 50px 0;
+    background: url("../img/laptop.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     letter-spacing: 2.5px;
+    display: table;
+    background-attachment: fixed;
 }
 
 main .main-realisation #realisation {
@@ -552,37 +559,80 @@ main .main-realisation #realisation {
 
 main .main-realisation .box-realisation {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    /* width: 100%; */
     flex-wrap: wrap;
     padding: 10px 15px;
     background: #f5f6f8;
-    box-shadow: 0 0 3px rgb(165, 165, 165);
-    opacity: .95;
 }
 
 main .main-realisation .box-realisation .box {
-    padding: 15px;
-    transition: transform .3s;
+    transition: .6s ease-out;
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    height: 260px;
+    width: 280px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px 50px;
+}
+
+main .main-realisation .box-realisation .box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+main .main-realisation .box-realisation .box:hover {
+    transform: translateY(15px);
+}
+
+main .main-realisation .box-realisation .box:hover:before {
+    opacity: 1;
+}
+
+main .main-realisation .box-realisation .box:hover .texte {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    background: linear-gradient(to top, #0b1320, transparent);
+}
+
+main .main-realisation .box-realisation .texte {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: .8em;
+    transition: .5s;
+    font-weight: 700;
+    visibility: hidden;
+}
+
+main .main-realisation .box-realisation .texte i {
+    color: #EA3D3D;
+    font-size: 1.5em;
 }
 
 
 /* -============================================* images de couverture *==========================================- */
 
 main .main-realisation .box-realisation .box img {
-    box-sizing: inherit;
-    height: 300px;
-    width: 320px;
-    border-radius: 10px;
-    box-shadow: 0 0 2.5px rgb(26, 26, 26);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
     object-fit: cover;
-}
-
-main .main-realisation .box-realisation .box:hover {
-    transform: scale(.99);
-}
-
-main .main-realisation .box-realisation .box img:hover {
-    box-shadow: 0 0 12px rgb(26, 26, 26);
 }
 
 
