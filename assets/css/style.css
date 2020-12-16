@@ -541,6 +541,7 @@ main .main-realisation {
     background: url("../img/laptop.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-blend-mode: screen;
     background-size: cover;
     letter-spacing: 2.5px;
     display: table;

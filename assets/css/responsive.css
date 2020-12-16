@@ -168,20 +168,24 @@
         height: 100%;
         width: 100%;
     }
+    main .service .second-block {
+        height: 120vh;
+        padding-bottom: 25%;
+        margin-top: -10%;
+    }
     main .service .second-block .block-service {
         display: flex;
         flex-direction: column;
-        height: 100vh;
     }
     main .service .second-block .service-1,
     main .service .second-block .service-2,
     main .service .second-block .service-3 {
         margin: 0 auto;
     }
-    main .service .second-block {
+    /* main .service .second-block {
         height: 120vh;
         margin-top: 20%;
-    }
+    } */
     .hobbies {
         display: flex;
         flex-direction: column-reverse;
