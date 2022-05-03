@@ -327,11 +327,14 @@
     main .main-realisation .box-realisation .box {
         margin-top: 20px;
         margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     main .main-realisation .box-realisation .box img {
         box-shadow: 3px 0px 8px #0a101a75;
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
     main .service .second-block .service-1,
     main .service .second-block .service-2,
